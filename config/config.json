@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "thuong_158",
+    "password": "thuong_158",
+    "database": "FoodCourtManagement",
+    "host": "FoodCourtManagement.mssql.somee.com",
+    "dialect": "mssql"
   }
 }
