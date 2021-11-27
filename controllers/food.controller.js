@@ -128,7 +128,7 @@ const removeFood = async (req, res) => {
 const uploadImgFood = async (req, res) => {
   const { id } = req.params;
   const file = req.file;
-  const url = `http://localhost:5000/${file.path}`;
+  const url = `https://project1952001.herokuapp.com/${file.path}`;
   try {
     const img_path = await Food.findOne({
       where: { id },
